@@ -56,7 +56,7 @@ RegisterNetEvent('qb-jewelery:client:ElectricBox', function()
 end)
 
 RegisterNetEvent('qb-jewelery:client:thermitebox', function()
-    QBCore.Functions.TriggerCallback('qb-jewelery:server:getCops', function(cops)
+    QBCore.Functions.TriggerCallback('qb-jewellery:server:getCops', function(cops)
         if cops >= Config.RequiredCops then
             local ped = PlayerPedId()
             local coords = GetEntityCoords(ped)
