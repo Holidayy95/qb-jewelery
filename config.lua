@@ -5,7 +5,7 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
 Config.Doorlock = "ox" -- qb or ox
-Config.DoorName = "doorID"
+Config.DoorName = "doorID" -- edit this ID to your jewelery store door ID
 
 Config.Timeout = 30 * (60 * 2000)
 Config.RequiredCops = 2
